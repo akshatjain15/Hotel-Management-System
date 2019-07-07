@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4E2EBE6-CD7C-4904-AA7E-DD3BD5F59F9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HOTELMANAGEMENT</RootNamespace>
+    <AssemblyName>HOTELMANAGEMENT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aagra2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aagra2.Designer.cs">
+      <DependentUpon>aagra2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminhotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminhotel.Designer.cs">
+      <DependentUpon>adminhotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminmainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminmainpage.Designer.cs">
+      <DependentUpon>adminmainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aagra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aagra.Designer.cs">
+      <DependentUpon>aagra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminpayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpayment.Designer.cs">
+      <DependentUpon>adminpayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="badmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="badmin.Designer.cs">
+      <DependentUpon>badmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bang.Designer.cs">
+      <DependentUpon>bang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bang2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bang2.Designer.cs">
+      <DependentUpon>bang2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cancelbooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelbooking.Designer.cs">
+      <DependentUpon>cancelbooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cryptography.cs" />
+    <Compile Include="d.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>d.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="del.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="del.Designer.cs">
+      <DependentUpon>del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="del2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="del2.Designer.cs">
+      <DependentUpon>del2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hotel descriptio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotel descriptio2.Designer.cs">
+      <DependentUpon>hotel descriptio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hotel description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotel description.Designer.cs">
+      <DependentUpon>hotel description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hoteldescription3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hoteldescription3.Designer.cs">
+      <DependentUpon>hoteldescription3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jai.Designer.cs">
+      <DependentUpon>jai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jai2.Designer.cs">
+      <DependentUpon>jai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kan2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kan2.Designer.cs">
+      <DependentUpon>kan2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kashmir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kashmir.Designer.cs">
+      <DependentUpon>kashmir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kan.Designer.cs">
+      <DependentUpon>kan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kashmir2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kashmir2.Designer.cs">
+      <DependentUpon>kashmir2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kol.Designer.cs">
+      <DependentUpon>kol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kol2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kol2.Designer.cs">
+      <DependentUpon>kol2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainpage.Designer.cs">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainpage2.Designer.cs">
+      <DependentUpon>mainpage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mum.Designer.cs">
+      <DependentUpon>mum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mum2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mum2.Designer.cs">
+      <DependentUpon>mum2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mybooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mybooking.Designer.cs">
+      <DependentUpon>mybooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newbooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newbooking.Designer.cs">
+      <DependentUpon>newbooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payment.Designer.cs">
+      <DependentUpon>payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signupform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signupform.Designer.cs">
+      <DependentUpon>signupform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="useradmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="useradmin.Designer.cs">
+      <DependentUpon>useradmin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aagra2.resx">
+      <DependentUpon>aagra2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminhotel.resx">
+      <DependentUpon>adminhotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminmainpage.resx">
+      <DependentUpon>adminmainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aagra.resx">
+      <DependentUpon>aagra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminpayment.resx">
+      <DependentUpon>adminpayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="badmin.resx">
+      <DependentUpon>badmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bang.resx">
+      <DependentUpon>bang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bang2.resx">
+      <DependentUpon>bang2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelbooking.resx">
+      <DependentUpon>cancelbooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="del.resx">
+      <DependentUpon>del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="del2.resx">
+      <DependentUpon>del2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hotel descriptio2.resx">
+      <DependentUpon>hotel descriptio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hotel description.resx">
+      <DependentUpon>hotel description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hoteldescription3.resx">
+      <DependentUpon>hoteldescription3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jai.resx">
+      <DependentUpon>jai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jai2.resx">
+      <DependentUpon>jai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kan2.resx">
+      <DependentUpon>kan2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kashmir.resx">
+      <DependentUpon>kashmir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kan.resx">
+      <DependentUpon>kan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kashmir2.resx">
+      <DependentUpon>kashmir2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kol.resx">
+      <DependentUpon>kol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kol2.resx">
+      <DependentUpon>kol2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainpage.resx">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainpage2.resx">
+      <DependentUpon>mainpage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mum.resx">
+      <DependentUpon>mum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mum2.resx">
+      <DependentUpon>mum2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mybooking.resx">
+      <DependentUpon>mybooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newbooking.resx">
+      <DependentUpon>newbooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payment.resx">
+      <DependentUpon>payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signupform.resx">
+      <DependentUpon>signupform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="useradmin.resx">
+      <DependentUpon>useradmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="d.xsc">
+      <DependentUpon>d.xsd</DependentUpon>
+    </None>
+    <None Include="d.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>d.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="d.xss">
+      <DependentUpon>d.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
