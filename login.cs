@@ -48,7 +48,7 @@ namespace HOTELMANAGEMENT
             OleDbCommand oledbCmd;
             string sql = null;
 
-            connetionString = "Provider=OraOLEDB.Oracle;Data Source=orcl;User Id=system;Password=7608956;";
+            connetionString = "Provider=OraOLEDB.Oracle;Data Source=orcl;User Id=system;Password=7*******6;";
             sql = "select * from sign where email_id='" + t1.Text + "'";
             oledbCnn = new OleDbConnection(connetionString);
             oledbCnn.Open();
